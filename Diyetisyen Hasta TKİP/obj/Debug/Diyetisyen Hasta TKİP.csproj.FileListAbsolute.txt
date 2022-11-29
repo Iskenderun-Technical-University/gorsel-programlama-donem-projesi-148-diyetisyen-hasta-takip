@@ -1,0 +1,11 @@
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.exe.config
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.exe
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.pdb
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.AssemblyReference.cache
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.SuggestedBindingRedirects.cache
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Form1.resources
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Properties.Resources.resources
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.GenerateResource.cache
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.CoreCompileInputs.cache
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.exe
+C:\Users\erena\OneDrive\Masaüstü\Yeni klasör (3)\Diyetisyen Hasta TKİP\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.pdb
