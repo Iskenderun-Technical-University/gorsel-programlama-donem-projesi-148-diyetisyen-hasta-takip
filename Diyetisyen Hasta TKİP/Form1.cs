@@ -24,93 +24,10 @@ namespace Diyetisyen_Hasta_TKİP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double kilo = Convert.ToDouble(textBox1.Text);
-            double boy = Convert.ToDouble(textBox2.Text);
-            double boykare = Math.Pow(boy,2);
 
-            double Sonuç = kilo / boykare;
-            label8.Text = Sonuç.ToString();
 
-            if (Sonuç < 18)
-            {
-                label7.Text = "İdeal kilonuzun altındasınız, kilo almanız sağlınız için iyi olur";
-                    label7.ForeColor = Color.Green;
-            }
-            else if (Sonuç < 25 && Sonuç > 18)
-            {
-                label7.Text = "İdeal kilodasınız";
-                    label7.ForeColor= Color.Green;
-            }
-            else if (Sonuç < 30 && Sonuç > 25)
-            {
-                label7.Text = "İdeal kilonuzun biraz üstündesiniz, beslenmenize dikkat edin";
-                    label7.ForeColor=(Color)Color.Yellow;
-            }
-            else if (Sonuç < 35 && Sonuç > 30)
-            {
-                label7.Text = "Obezsiniz sağlık kurumuna başvurmanız gerekiyor";
-                    label7.ForeColor= Color.Orange;
-            }
-            else if (Sonuç > 35)
-            {
-                label7.Text = "Morbid obezsiniz, Acilen bir sağlık kurumuna başvurun";
-                label7.ForeColor = Color.Red;
-            }
-        }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-            
-        
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
 
         }
     }
-
-        private void Form1_Load_1(object sender, EventArgs e)
-        {
-
-        }
-    }
+}
