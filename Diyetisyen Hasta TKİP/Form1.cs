@@ -34,5 +34,20 @@ namespace Diyetisyen_Hasta_TKİP
         {
 
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
