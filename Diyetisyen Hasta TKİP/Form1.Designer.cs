@@ -120,7 +120,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label9.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label9.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(13, 16);
             this.label9.Name = "label9";
@@ -193,6 +193,7 @@
             this.label14.Size = new System.Drawing.Size(250, 21);
             this.label14.TabIndex = 19;
             this.label14.Text = "Vücut Kitle Endeksi ";
+            this.label14.Click += new System.EventHandler(this.label14_Click_1);
             // 
             // label12
             // 
@@ -207,7 +208,7 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox6.Location = new System.Drawing.Point(622, 37);
+            this.textBox6.Location = new System.Drawing.Point(622, 41);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(45, 22);
             this.textBox6.TabIndex = 21;
@@ -215,7 +216,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label13.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label13.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(561, 179);
             this.label13.Name = "label13";
@@ -226,7 +227,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label15.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label15.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(12, 179);
             this.label15.Name = "label15";
@@ -257,7 +258,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(14, 310);
             this.label18.Name = "label18";
@@ -288,7 +289,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.SystemColors.Highlight;
+            this.label20.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label20.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(480, 95);
             this.label20.Name = "label20";
@@ -299,30 +300,30 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.SystemColors.Highlight;
-            this.label21.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(252, 39);
+            this.label21.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label21.Font = new System.Drawing.Font("NSimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(252, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(46, 21);
+            this.label21.Size = new System.Drawing.Size(34, 16);
             this.label21.TabIndex = 31;
             this.label21.Text = "(m)";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.SystemColors.Highlight;
-            this.label22.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(252, 62);
+            this.label22.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label22.Font = new System.Drawing.Font("NSimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(252, 66);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(58, 21);
+            this.label22.Size = new System.Drawing.Size(43, 15);
             this.label22.TabIndex = 32;
             this.label22.Text = "(Kg)";
             // 
             // Form1
             // 
             this.AutoSize = true;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(865, 504);
+            this.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.ClientSize = new System.Drawing.Size(1066, 522);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
