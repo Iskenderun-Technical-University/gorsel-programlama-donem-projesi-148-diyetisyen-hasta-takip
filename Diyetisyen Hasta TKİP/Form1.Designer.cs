@@ -61,7 +61,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton1.Location = new System.Drawing.Point(542, 215);
+            this.radioButton1.Location = new System.Drawing.Point(63, 257);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(64, 20);
             this.radioButton1.TabIndex = 4;
@@ -73,7 +73,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton2.Location = new System.Drawing.Point(640, 215);
+            this.radioButton2.Location = new System.Drawing.Point(155, 257);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(65, 20);
             this.radioButton2.TabIndex = 5;
@@ -85,7 +85,7 @@
             // 
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton3.Location = new System.Drawing.Point(484, 134);
+            this.radioButton3.Location = new System.Drawing.Point(19, 185);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(68, 20);
             this.radioButton3.TabIndex = 8;
@@ -97,7 +97,7 @@
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton4.Location = new System.Drawing.Point(586, 134);
+            this.radioButton4.Location = new System.Drawing.Point(120, 185);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(54, 20);
             this.radioButton4.TabIndex = 7;
@@ -109,7 +109,7 @@
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton5.Location = new System.Drawing.Point(662, 134);
+            this.radioButton5.Location = new System.Drawing.Point(196, 185);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(76, 20);
             this.radioButton5.TabIndex = 9;
@@ -153,7 +153,7 @@
             // HESAPLA
             // 
             this.HESAPLA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HESAPLA.Location = new System.Drawing.Point(76, 123);
+            this.HESAPLA.Location = new System.Drawing.Point(478, 53);
             this.HESAPLA.Name = "HESAPLA";
             this.HESAPLA.Size = new System.Drawing.Size(99, 41);
             this.HESAPLA.TabIndex = 14;
@@ -188,7 +188,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(12, 99);
+            this.label14.Location = new System.Drawing.Point(402, 16);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(250, 21);
             this.label14.TabIndex = 19;
@@ -199,18 +199,19 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(552, 37);
+            this.label12.Location = new System.Drawing.Point(15, 82);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 21);
+            this.label12.Size = new System.Drawing.Size(127, 21);
             this.label12.TabIndex = 20;
-            this.label12.Text = "Yaş :";
+            this.label12.Text = "Yaş      :";
             // 
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox6.Location = new System.Drawing.Point(622, 41);
+            this.textBox6.Location = new System.Drawing.Point(139, 84);
+            this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(45, 22);
+            this.textBox6.Size = new System.Drawing.Size(107, 22);
             this.textBox6.TabIndex = 21;
             // 
             // label13
@@ -218,7 +219,7 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label13.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(561, 179);
+            this.label13.Location = new System.Drawing.Point(88, 217);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(106, 21);
             this.label13.TabIndex = 22;
@@ -229,7 +230,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label15.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(12, 179);
+            this.label15.Location = new System.Drawing.Point(430, 121);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(130, 21);
             this.label15.TabIndex = 23;
@@ -239,7 +240,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(148, 179);
+            this.label16.Location = new System.Drawing.Point(576, 121);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(22, 21);
             this.label16.TabIndex = 24;
@@ -249,7 +250,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(14, 225);
+            this.label17.Location = new System.Drawing.Point(391, 170);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(426, 21);
             this.label17.TabIndex = 25;
@@ -260,7 +261,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(14, 310);
+            this.label18.Location = new System.Drawing.Point(430, 281);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(130, 21);
             this.label18.TabIndex = 27;
@@ -270,7 +271,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(150, 310);
+            this.label19.Location = new System.Drawing.Point(576, 281);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(22, 21);
             this.label19.TabIndex = 28;
@@ -279,7 +280,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(76, 255);
+            this.button3.Location = new System.Drawing.Point(478, 217);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(99, 41);
             this.button3.TabIndex = 29;
@@ -291,7 +292,7 @@
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label20.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(480, 95);
+            this.label20.Location = new System.Drawing.Point(10, 137);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(298, 21);
             this.label20.TabIndex = 30;
