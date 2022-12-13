@@ -54,3 +54,15 @@ C:\Users\Asus\source\repos\gorsel-programlama-donem-projesi-148-diyetisyen-hasta
 C:\Users\Asus\source\repos\gorsel-programlama-donem-projesi-148-diyetisyen-hasta-takip\Yeni klasör (5)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.CoreCompileInputs.cache
 C:\Users\Asus\source\repos\gorsel-programlama-donem-projesi-148-diyetisyen-hasta-takip\Yeni klasör (5)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.exe
 C:\Users\Asus\source\repos\gorsel-programlama-donem-projesi-148-diyetisyen-hasta-takip\Yeni klasör (5)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.pdb
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.exe.config
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.exe
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\bin\Debug\Diyetisyen Hasta TKİP.pdb
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Form1.resources
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Form2.resources
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Properties.Resources.resources
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.GenerateResource.cache
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.exe
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.pdb

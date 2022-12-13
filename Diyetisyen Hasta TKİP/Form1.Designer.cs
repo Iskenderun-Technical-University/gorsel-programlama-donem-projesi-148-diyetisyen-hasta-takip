@@ -51,10 +51,11 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -159,6 +160,7 @@
             this.HESAPLA.TabIndex = 14;
             this.HESAPLA.Text = "HESAPLA";
             this.HESAPLA.UseVisualStyleBackColor = true;
+            this.HESAPLA.Click += new System.EventHandler(this.HESAPLA_Click);
             // 
             // textBox3
             // 
@@ -250,7 +252,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(391, 170);
+            this.label17.Location = new System.Drawing.Point(391, 234);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(426, 21);
             this.label17.TabIndex = 25;
@@ -261,7 +263,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(430, 281);
+            this.label18.Location = new System.Drawing.Point(430, 299);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(130, 21);
             this.label18.TabIndex = 27;
@@ -271,21 +273,11 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(576, 281);
+            this.label19.Location = new System.Drawing.Point(576, 299);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(22, 21);
             this.label19.TabIndex = 28;
             this.label19.Text = "?";
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(478, 217);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(99, 41);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "HESAPLA";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // label20
             // 
@@ -320,15 +312,36 @@
             this.label22.TabIndex = 32;
             this.label22.Text = "(Kg)";
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label23.Location = new System.Drawing.Point(430, 169);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(127, 24);
+            this.label23.TabIndex = 33;
+            this.label23.Text = "Durum           :";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(576, 172);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(22, 21);
+            this.label24.TabIndex = 34;
+            this.label24.Text = "?";
+            // 
             // Form1
             // 
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1066, 522);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -393,10 +406,11 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
     }
 }
 

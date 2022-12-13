@@ -54,5 +54,44 @@ namespace Diyetisyen_Hasta_TKİP
         {
 
         }
+
+        private void HESAPLA_Click(object sender, EventArgs e)
+        {
+            double boy = Convert.ToDouble(textBox4.Text);
+            double kilo = Convert.ToDouble(textBox5.Text);
+            double boykare = Math.Pow(boy, 2);
+
+            double sonuç = kilo / boykare;
+
+            label16.Text = sonuç.ToString();
+
+
+            if (sonuç<18)
+            {
+                label24.Text = "ideal kilomuzun altındasınız";
+            }
+            else if(sonuç<25 && sonuç>18)
+            {
+                label24.Text = "ideal kilodasınız";
+            }
+            else if(sonuç < 30 && sonuç > 25)
+            {
+                label24.Text = "ideal kilonuzun üstündesiniz";
+            }
+            else if(sonuç < 35 && sonuç > 30)
+            {
+                label24.Text = "obezsiniz";
+            }
+            else if(sonuç > 35)
+            {
+                label24.Text = "morbid obezsiniz";
+            }
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
