@@ -130,7 +130,7 @@
             // HESAPLA
             // 
             this.HESAPLA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HESAPLA.Location = new System.Drawing.Point(462, 298);
+            this.HESAPLA.Location = new System.Drawing.Point(461, 285);
             this.HESAPLA.Name = "HESAPLA";
             this.HESAPLA.Size = new System.Drawing.Size(99, 41);
             this.HESAPLA.TabIndex = 14;
