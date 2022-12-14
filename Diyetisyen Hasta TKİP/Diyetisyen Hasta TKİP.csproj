@@ -51,6 +51,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>diyetDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="diyetDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>diyetDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiyetisyenHasTatakıpDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiyetisyenHasTatakıpDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +79,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -79,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +120,28 @@
     <None Include="diyetDataSet.xss">
       <DependentUpon>diyetDataSet.xsd</DependentUpon>
     </None>
+    <None Include="diyetDataSet1.xsc">
+      <DependentUpon>diyetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="diyetDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>diyetDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="diyetDataSet1.xss">
+      <DependentUpon>diyetDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DiyetisyenHasTatakıpDataSet.xsc">
+      <DependentUpon>DiyetisyenHasTatakıpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DiyetisyenHasTatakıpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiyetisyenHasTatakıpDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiyetisyenHasTatakıpDataSet.xss">
+      <DependentUpon>DiyetisyenHasTatakıpDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -119,6 +160,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\istockphoto-855955072-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-mark-button_274e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross-mark-button_274e1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1163002909-612x612.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

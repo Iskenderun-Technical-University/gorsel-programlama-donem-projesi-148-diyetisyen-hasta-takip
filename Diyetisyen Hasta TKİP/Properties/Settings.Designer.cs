@@ -32,5 +32,16 @@ namespace Diyetisyen_Hasta_TKİP.Properties {
                 return ((string)(this["diyetConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-UTIU3TA;Initial Catalog=DiyetisyenHasTatakıp;Integrated Secur" +
+            "ity=True")]
+        public string DiyetisyenHasTatakıpConnectionString {
+            get {
+                return ((string)(this["DiyetisyenHasTatakıpConnectionString"]));
+            }
+        }
     }
 }

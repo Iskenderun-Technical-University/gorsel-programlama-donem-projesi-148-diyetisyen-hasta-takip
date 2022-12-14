@@ -54,8 +54,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
@@ -179,9 +179,9 @@
             this.label14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(425, 272);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(178, 22);
+            this.label14.Size = new System.Drawing.Size(172, 22);
             this.label14.TabIndex = 19;
-            this.label14.Text = "Vücut Kitle Endeksi ";
+            this.label14.Text = "Vücut Kitle İndeksi ";
             this.label14.Click += new System.EventHandler(this.label14_Click_1);
             // 
             // label12
@@ -336,17 +336,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "CİNSİYET";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 40);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(80, 23);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "KADIN";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
@@ -357,6 +346,17 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "ERKEK";
             this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(6, 40);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(80, 23);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "KADIN";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 

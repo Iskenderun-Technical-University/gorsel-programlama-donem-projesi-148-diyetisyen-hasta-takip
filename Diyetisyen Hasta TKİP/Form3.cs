@@ -27,7 +27,7 @@ namespace Diyetisyen_Hasta_TKİP
           
             if(textBox1.Text=="iste" && textBox2.Text=="2015")
             {
-                Form1 git = new Form1();
+                Form4 git = new Form4();
                 this.Hide();
                 git.ShowDialog();
 
