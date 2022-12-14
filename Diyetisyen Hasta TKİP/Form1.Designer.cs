@@ -63,7 +63,7 @@
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton3.Location = new System.Drawing.Point(19, 185);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(68, 20);
+            this.radioButton3.Size = new System.Drawing.Size(83, 24);
             this.radioButton3.TabIndex = 8;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Düşük";
@@ -75,7 +75,7 @@
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton4.Location = new System.Drawing.Point(120, 185);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(54, 20);
+            this.radioButton4.Size = new System.Drawing.Size(67, 24);
             this.radioButton4.TabIndex = 7;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Orta";
@@ -87,7 +87,7 @@
             this.radioButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.radioButton5.Location = new System.Drawing.Point(196, 185);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(76, 20);
+            this.radioButton5.Size = new System.Drawing.Size(89, 24);
             this.radioButton5.TabIndex = 9;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Yüksek";
@@ -96,11 +96,11 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(13, 16);
+            this.label9.Location = new System.Drawing.Point(12, 16);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(130, 21);
+            this.label9.Size = new System.Drawing.Size(162, 27);
             this.label9.TabIndex = 10;
             this.label9.Text = "Ad Soyad :";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -109,9 +109,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(14, 37);
+            this.label10.Location = new System.Drawing.Point(10, 39);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 21);
+            this.label10.Size = new System.Drawing.Size(162, 27);
             this.label10.TabIndex = 11;
             this.label10.Text = "Boy      :";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -122,7 +122,7 @@
             this.label11.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(14, 60);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(130, 21);
+            this.label11.Size = new System.Drawing.Size(162, 27);
             this.label11.TabIndex = 12;
             this.label11.Text = "Kilo     :";
             // 
@@ -142,7 +142,7 @@
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox3.Location = new System.Drawing.Point(139, 16);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(107, 21);
+            this.textBox3.Size = new System.Drawing.Size(107, 24);
             this.textBox3.TabIndex = 16;
             // 
             // textBox4
@@ -150,7 +150,7 @@
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox4.Location = new System.Drawing.Point(139, 39);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(107, 21);
+            this.textBox4.Size = new System.Drawing.Size(107, 24);
             this.textBox4.TabIndex = 17;
             // 
             // textBox5
@@ -158,7 +158,7 @@
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox5.Location = new System.Drawing.Point(139, 62);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(107, 21);
+            this.textBox5.Size = new System.Drawing.Size(107, 24);
             this.textBox5.TabIndex = 18;
             // 
             // label14
@@ -167,7 +167,7 @@
             this.label14.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(402, 16);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(250, 21);
+            this.label14.Size = new System.Drawing.Size(312, 27);
             this.label14.TabIndex = 19;
             this.label14.Text = "Vücut Kitle Endeksi ";
             this.label14.Click += new System.EventHandler(this.label14_Click_1);
@@ -178,7 +178,7 @@
             this.label12.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(15, 82);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(127, 21);
+            this.label12.Size = new System.Drawing.Size(159, 27);
             this.label12.TabIndex = 20;
             this.label12.Text = "Yaş      :";
             // 
@@ -194,22 +194,22 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(88, 217);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(106, 21);
+            this.label13.Size = new System.Drawing.Size(132, 27);
             this.label13.TabIndex = 22;
             this.label13.Text = "Cinsiyet";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label15.BackColor = System.Drawing.Color.White;
             this.label15.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(430, 66);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(130, 21);
+            this.label15.Size = new System.Drawing.Size(162, 27);
             this.label15.TabIndex = 23;
             this.label15.Text = "Sonuç    :";
             // 
@@ -219,7 +219,7 @@
             this.label16.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(576, 66);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(22, 21);
+            this.label16.Size = new System.Drawing.Size(27, 27);
             this.label16.TabIndex = 24;
             this.label16.Text = "?";
             // 
@@ -229,18 +229,18 @@
             this.label17.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(339, 262);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(426, 21);
+            this.label17.Size = new System.Drawing.Size(534, 27);
             this.label17.TabIndex = 25;
             this.label17.Text = "Günlük Alması Gereken Kalori Miktarı";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label18.BackColor = System.Drawing.Color.White;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(429, 320);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(130, 21);
+            this.label18.Size = new System.Drawing.Size(162, 27);
             this.label18.TabIndex = 27;
             this.label18.Text = "Sonuç    :";
             // 
@@ -250,40 +250,40 @@
             this.label19.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(576, 320);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(22, 21);
+            this.label19.Size = new System.Drawing.Size(27, 27);
             this.label19.TabIndex = 28;
             this.label19.Text = "?";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label20.BackColor = System.Drawing.Color.White;
             this.label20.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(10, 137);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(298, 21);
+            this.label20.Size = new System.Drawing.Size(372, 27);
             this.label20.TabIndex = 30;
             this.label20.Text = "Günlük Fiziksel Aktivite";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label21.BackColor = System.Drawing.Color.White;
             this.label21.Font = new System.Drawing.Font("NSimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(252, 41);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(34, 16);
+            this.label21.Size = new System.Drawing.Size(42, 20);
             this.label21.TabIndex = 31;
             this.label21.Text = "(m)";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label22.BackColor = System.Drawing.Color.White;
             this.label22.Font = new System.Drawing.Font("NSimSun", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(252, 66);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(43, 15);
+            this.label22.Size = new System.Drawing.Size(53, 19);
             this.label22.TabIndex = 32;
             this.label22.Text = "(Kg)";
             // 
@@ -293,7 +293,7 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label23.Location = new System.Drawing.Point(430, 114);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(127, 24);
+            this.label23.Size = new System.Drawing.Size(156, 29);
             this.label23.TabIndex = 33;
             this.label23.Text = "Durum           :";
             // 
@@ -303,7 +303,7 @@
             this.label24.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(576, 117);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(22, 21);
+            this.label24.Size = new System.Drawing.Size(27, 27);
             this.label24.TabIndex = 34;
             this.label24.Text = "?";
             // 
@@ -312,7 +312,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(62, 262);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(62, 17);
+            this.checkBox1.Size = new System.Drawing.Size(73, 20);
             this.checkBox1.TabIndex = 35;
             this.checkBox1.Text = "ERKEK";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -322,14 +322,14 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(166, 262);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(59, 17);
+            this.checkBox2.Size = new System.Drawing.Size(69, 20);
             this.checkBox2.TabIndex = 36;
             this.checkBox2.Text = "KADIN";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(472, 397);
+            this.button2.Location = new System.Drawing.Point(472, 391);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 43);
             this.button2.TabIndex = 37;
@@ -340,7 +340,7 @@
             // Form1
             // 
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1066, 522);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox2);
@@ -369,6 +369,7 @@
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton4);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "Form1";
             this.TransparencyKey = System.Drawing.Color.Black;
             this.Load += new System.EventHandler(this.Form1_Load_1);

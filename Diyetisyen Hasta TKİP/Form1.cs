@@ -115,32 +115,114 @@ namespace Diyetisyen_Hasta_TKİP
 
 
 
-            if (checkBox1.Checked==true)
+            if (checkBox1.Checked==true) // erkek için 
             {
-             if(yaş<60)
+             if(yaş<60) // 60 yaşından küçük erkek
                 {
-                    bmh = a * kilo * 24;
-                    if(radioButton3.Checked==true)
+                    bmh = a * kilo * 24; // bazal metabolizma hızı hesaplama 
+                    if(radioButton3.Checked==true) // hafif hareket için
                     {
                         kalori=bmh*1.6;
+                        // bazal metabolizma hızı ve sabit değişken çarpılır ve günlük alınması
+                        // gereken kalori bulunur.
                         label19.Text = kalori.ToString();
 
 
                     }
-                    else
+                    else if(radioButton4.Checked==true) // orta hareket için
                     {
+                        kalori = bmh * 1.7;
+                        label19.Text=kalori.ToString();
+                        
+                    }
+                    else if(radioButton5.Checked==true) // yüksek hareket için 
+                    {
+                        kalori = bmh * 2.1;
+                        label19.Text = kalori.ToString();
+
+                    }
+                }
+                else if(yaş>=60) // 60 yaşında ve yaşından büyük için
+                {
+                    bmh = b * kilo*24;
+
+                    if (radioButton3.Checked == true)
+                    {
+                        kalori = bmh * 1.6;
+                        label19.Text = kalori.ToString();
+
+
+                    }
+                    else if (radioButton4.Checked == true)
+                    {
+                        kalori = bmh * 1.7;
+                        label19.Text = kalori.ToString();
+
+                    }
+                    else if (radioButton5.Checked == true)
+                    {
+                        kalori = bmh * 2.1;
+                        label19.Text = kalori.ToString();
+
+                    }
+                }
+            }
+            else if(checkBox2.Checked==true) // kadın için 
+            {
+                if(yaş<60) // 60 yaşından küçük kadın için 
+                {
+                    bmh = c * kilo * 24;
+                    // sabit değerlerle kilo çarpılır bazal metabolizma hızı bulunur 
+                    if(radioButton3.Checked == true)
+                    {
+                        kalori = bmh * 1.5;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text=kalori.ToString(); 
+                    }
+                    else if(radioButton4.Checked == true)
+                    {
+                        kalori=bmh*1.6;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text=kalori.ToString(); 
+
+                    }
+                    else if(radioButton5.Checked==true)
+                    {
+                        kalori = bmh * 1.9;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text=kalori.ToString();
+
+
+                    }
+                }
+                else if(yaş>=60) // 60 yaşında ve büyük için kadın 
+                {
+                    bmh = d * kilo * 24;
+                    // sabit değerlerle kilo çarpılır bazal metabolizma hızı bulunur 
+                    if (radioButton3.Checked == true)
+                    {
+                        
+                        kalori = bmh * 1.5;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text = kalori.ToString();
+                    }
+                    else if (radioButton4.Checked == true)
+                    {
+                        kalori = bmh * 1.6;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text = kalori.ToString();
+
+                    }
+                    else if (radioButton5.Checked == true)
+                    {
+                        kalori = bmh * 1.9;
+                        // sabit değişkenle bmh çarpılır.
+                        label19.Text = kalori.ToString();
+
 
                     }
 
                 }
-                else
-                {
-
-                }
-            }
-            else
-            {
-
             }
         }
     }
