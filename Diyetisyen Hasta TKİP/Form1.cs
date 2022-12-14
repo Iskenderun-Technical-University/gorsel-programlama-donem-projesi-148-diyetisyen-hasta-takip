@@ -60,7 +60,10 @@ namespace Diyetisyen_Hasta_TKİP
             double boy = Convert.ToDouble(textBox4.Text);
             double kilo = Convert.ToDouble(textBox5.Text);
             double boykare = Math.Pow(boy, 2);
-    
+           
+       
+            
+
             double sonuç = kilo / boykare;
 
             label16.Text = sonuç.ToString();
@@ -98,7 +101,48 @@ namespace Diyetisyen_Hasta_TKİP
         {
 
         }
-        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double a = 1; // 60 dan küçük erkek sabiti
+            double b = 0.8; // 60 dan büyük erkek sabiti 
+            double c = 0.95; // 60 dan küçük kadın sabiti 
+            double d = 0.8; //60 dan büyük kadın sabiti 
+            double bmh;
+            double yaş=Convert.ToDouble(textBox6.Text);
+            double kilo = Convert.ToDouble(textBox5.Text);
+            double kalori;
+
+
+
+            if (checkBox1.Checked==true)
+            {
+             if(yaş<60)
+                {
+                    bmh = a * kilo * 24;
+                    if(radioButton3.Checked==true)
+                    {
+                        kalori=bmh*1.6;
+                        label19.Text = kalori.ToString();
+
+
+                    }
+                    else
+                    {
+
+                    }
+
+                }
+                else
+                {
+
+                }
+            }
+            else
+            {
+
+            }
+        }
     }
 
         
