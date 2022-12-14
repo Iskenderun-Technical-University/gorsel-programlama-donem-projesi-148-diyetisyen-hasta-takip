@@ -54,6 +54,7 @@
             this.label24 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // radioButton3
@@ -128,9 +129,9 @@
             // HESAPLA
             // 
             this.HESAPLA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HESAPLA.Location = new System.Drawing.Point(461, 285);
+            this.HESAPLA.Location = new System.Drawing.Point(472, 185);
             this.HESAPLA.Name = "HESAPLA";
-            this.HESAPLA.Size = new System.Drawing.Size(99, 41);
+            this.HESAPLA.Size = new System.Drawing.Size(103, 43);
             this.HESAPLA.TabIndex = 14;
             this.HESAPLA.Text = "HESAPLA";
             this.HESAPLA.UseVisualStyleBackColor = true;
@@ -226,7 +227,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(341, 172);
+            this.label17.Location = new System.Drawing.Point(339, 262);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(426, 21);
             this.label17.TabIndex = 25;
@@ -237,7 +238,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(431, 230);
+            this.label18.Location = new System.Drawing.Point(429, 320);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(130, 21);
             this.label18.TabIndex = 27;
@@ -247,7 +248,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(567, 230);
+            this.label19.Location = new System.Drawing.Point(576, 320);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(22, 21);
             this.label19.TabIndex = 28;
@@ -326,11 +327,22 @@
             this.checkBox2.Text = "KADIN";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(472, 397);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 43);
+            this.button2.TabIndex = 37;
+            this.button2.Text = "HESAPLA";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1066, 522);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label24);
@@ -404,6 +416,7 @@
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Button button2;
     }
 }
 
