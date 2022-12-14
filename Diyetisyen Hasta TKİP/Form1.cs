@@ -60,7 +60,7 @@ namespace Diyetisyen_Hasta_TKİP
             double boy = Convert.ToDouble(textBox4.Text);
             double kilo = Convert.ToDouble(textBox5.Text);
             double boykare = Math.Pow(boy, 2);
-
+            double bmh, e, k, sabit;
             double sonuç = kilo / boykare;
 
             label16.Text = sonuç.ToString();
@@ -86,12 +86,29 @@ namespace Diyetisyen_Hasta_TKİP
             {
                 label24.Text = "morbid obezsiniz";
             }
+            // BURADA VÜCUT KİTLE ENDEKSİNİ HESAPLADIK 
+
+            if(CheckBox1.checked==true)
+                {
+
+                    label19.Text = "erkek";
+
+
+
+                }
+                else
+                {
+
+                }
+
+
 
         }
-
+       
         private void button3_Click(object sender, EventArgs e)
         {
 
         }
+        
     }
 }

@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
@@ -56,31 +54,9 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton1.Location = new System.Drawing.Point(63, 257);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 20);
-            this.radioButton1.TabIndex = 4;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Kadın";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.radioButton2.Location = new System.Drawing.Point(155, 257);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(65, 20);
-            this.radioButton2.TabIndex = 5;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Erkek";
-            this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -153,8 +129,8 @@
             // 
             // HESAPLA
             // 
-            this.HESAPLA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HESAPLA.Location = new System.Drawing.Point(478, 53);
+            this.HESAPLA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HESAPLA.Location = new System.Drawing.Point(462, 298);
             this.HESAPLA.Name = "HESAPLA";
             this.HESAPLA.Size = new System.Drawing.Size(99, 41);
             this.HESAPLA.TabIndex = 14;
@@ -232,7 +208,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label15.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(430, 121);
+            this.label15.Location = new System.Drawing.Point(430, 66);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(130, 21);
             this.label15.TabIndex = 23;
@@ -242,7 +218,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(576, 121);
+            this.label16.Location = new System.Drawing.Point(576, 66);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(22, 21);
             this.label16.TabIndex = 24;
@@ -252,7 +228,7 @@
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(391, 234);
+            this.label17.Location = new System.Drawing.Point(341, 172);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(426, 21);
             this.label17.TabIndex = 25;
@@ -263,7 +239,7 @@
             this.label18.AutoSize = true;
             this.label18.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label18.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(430, 299);
+            this.label18.Location = new System.Drawing.Point(431, 230);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(130, 21);
             this.label18.TabIndex = 27;
@@ -273,7 +249,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(576, 299);
+            this.label19.Location = new System.Drawing.Point(567, 230);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(22, 21);
             this.label19.TabIndex = 28;
@@ -316,7 +292,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(430, 169);
+            this.label23.Location = new System.Drawing.Point(430, 114);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(127, 24);
             this.label23.TabIndex = 33;
@@ -326,17 +302,39 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(576, 172);
+            this.label24.Location = new System.Drawing.Point(576, 117);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(22, 21);
             this.label24.TabIndex = 34;
             this.label24.Text = "?";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(62, 262);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(62, 17);
+            this.checkBox1.TabIndex = 35;
+            this.checkBox1.Text = "ERKEK";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(166, 262);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(59, 17);
+            this.checkBox2.TabIndex = 36;
+            this.checkBox2.Text = "KADIN";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1066, 522);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label23);
             this.Controls.Add(this.label22);
@@ -361,8 +359,6 @@
             this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Name = "Form1";
             this.TransparencyKey = System.Drawing.Color.Black;
             this.Load += new System.EventHandler(this.Form1_Load_1);
@@ -384,8 +380,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton5;
@@ -411,6 +405,8 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
     }
 }
 

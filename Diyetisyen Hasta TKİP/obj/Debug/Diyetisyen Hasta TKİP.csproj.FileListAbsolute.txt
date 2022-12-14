@@ -66,3 +66,4 @@ C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\De
 C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.csproj.CoreCompileInputs.cache
 C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.exe
 C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (2)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen Hasta TKİP.pdb
+C:\Users\Asus\OneDrive\Masaüstü\Yeni klasör (4)\Diyetisyen Hasta TKİP\obj\Debug\Diyetisyen_Hasta_TKİP.Form2.resources
