@@ -115,7 +115,7 @@ namespace Diyetisyen_Hasta_TKİP
 
 
 
-            if (checkBox1.Checked==true) // erkek için 
+            if (radioButton2.Checked==true) // erkek için 
             {
              if(yaş<60) // 60 yaşından küçük erkek
                 {
@@ -167,7 +167,7 @@ namespace Diyetisyen_Hasta_TKİP
                     }
                 }
             }
-            else if(checkBox2.Checked==true) // kadın için 
+            else if(radioButton1.Checked==true) // kadın için 
             {
                 if(yaş<60) // 60 yaşından küçük kadın için 
                 {
@@ -224,6 +224,16 @@ namespace Diyetisyen_Hasta_TKİP
 
                 }
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
