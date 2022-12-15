@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+
 
 namespace Diyetisyen_Hasta_TKİP
 {
@@ -15,6 +17,11 @@ namespace Diyetisyen_Hasta_TKİP
         public Form5()
         {
             InitializeComponent();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

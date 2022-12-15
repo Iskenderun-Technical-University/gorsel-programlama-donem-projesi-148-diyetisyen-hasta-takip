@@ -47,10 +47,11 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(763, 306);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(2, -1);
+            this.textBox1.Location = new System.Drawing.Point(-4, -1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(38, 20);
@@ -66,7 +67,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(40, -1);
+            this.textBox3.Location = new System.Drawing.Point(22, -1);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 3;
