@@ -54,16 +54,19 @@ namespace Diyetisyen_Hasta_TKİP
         {
 
         }
-
+        public static string adsoyad = "";
+        public static double boyy  = 0;
+        public static int kiloy = 0;
+        public static string cinsiyet = "";
+        public static double vkii = 0.0;
+        public static double kalori1 = 0.0;
         private void HESAPLA_Click(object sender, EventArgs e)
         {
             double boy = Convert.ToDouble(textBox4.Text);
             double kilo = Convert.ToDouble(textBox5.Text);
             double boykare = Math.Pow(boy, 2);
-           
-       
-            
 
+           
             double sonuç = kilo / boykare;
 
             label16.Text = sonuç.ToString();
@@ -91,9 +94,21 @@ namespace Diyetisyen_Hasta_TKİP
             }
             // BURADA VÜCUT KİTLE ENDEKSİNİ HESAPLADIK 
 
+
+            adsoyad = textBox3.Text;
+            boyy = Convert.ToDouble(textBox4.Text);
+            kiloy = Convert.ToInt32(textBox5.Text);
+            if (radioButton1.Checked)
+            {
+                cinsiyet = "kadin";
+            }
+            else if (radioButton2.Checked)
+            {
+                cinsiyet = "erkek";
+            }
+
+            vkii = Convert.ToDouble(label16.Text);
            
-
-
 
         }
        
@@ -224,6 +239,8 @@ namespace Diyetisyen_Hasta_TKİP
 
                 }
             }
+            kalori1 = Convert.ToDouble(label19.Text);
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

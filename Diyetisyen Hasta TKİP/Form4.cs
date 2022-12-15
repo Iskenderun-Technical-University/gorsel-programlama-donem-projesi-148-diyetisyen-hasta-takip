@@ -20,8 +20,19 @@ namespace Diyetisyen_Hasta_TKİP
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 git = new Form1();
-            this.Hide();
+            
             git.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            hastalar hastalar= new hastalar();
+            hastalar.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
